@@ -1,4 +1,4 @@
-# Calculator_SY CHOI
+# JavaScript로 만든 계산기 프로젝트
 
 이 프로젝트는 간단한 웹 기반 계산기 애플리케이션입니다.
 
