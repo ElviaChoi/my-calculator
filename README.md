@@ -14,7 +14,8 @@
 
 ## 스크린샷
 
-![스크린샷](path/to/your/screenshot.png)
+![계산기](https://github.com/user-attachments/assets/3d19f1af-bb09-4165-9664-50a0e4f9d23e)
+
 
 
 ## 사용 기술
