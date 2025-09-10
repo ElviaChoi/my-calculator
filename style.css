@@ -1,11 +1,9 @@
-/* 모든 요소의 기본 여백 제거 */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-/* HTML과 Body의 기본 설정 */
 html, body {
 height: 100%;
 }
@@ -64,12 +62,12 @@ body {
 .calculator-top {
 	display: flex;
 	justify-content: space-between;
-	align-items: center; /*카리파라이터 부분 세로 정렬*/
+	align-items: center;
 }
 
 .calculator-button {
 	display: flex;
-  	gap: 6px; /* 버튼 사이 간격 */
+  	gap: 6px;
 	margin-bottom: 10px;
 }
 
@@ -89,7 +87,6 @@ body {
 	line-height: 1;
 }
 
-/* 각 색상 버튼 */
 .red-button {
 	background-color: #FD5643;
 }
@@ -103,10 +100,9 @@ body {
 }
 
 .gray-button {
-	background-color: #C0C0C0; /* 회색 */
+	background-color: #C0C0C0;
 }
 
-/* - 기호 위치 조정 (노란 버튼만 따로) */
 .smaller {
 	position: relative;
 	top: -1px; 
@@ -133,7 +129,7 @@ body {
 	color: black;
 	padding: 0px;
 	display: flex;
-	flex-wrap: wrap;/*자식요소 줄바꿈*/
+	flex-wrap: wrap;
 	gap: 8px;
 }
 
@@ -184,9 +180,6 @@ body {
 }
 
 .dot-text {
-	position: relative; /*원래 위치 기준에서 살짝 위로 설정하는 것, 
-	부모 기준으로 정확한 위치 배치가 필요할 경우 부모 요소에 relative를 주어
-	기준점을 설정하고 자식 position에 absolute를 준다.*/ 
-	top: -7px; /* html <span>태그로 감싸면 '.' 글자만 위로 이동, 원래 위치에서 위로 5px 이동*/
+	position: relative; 
+	top: -7px;
 }
-
